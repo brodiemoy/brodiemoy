@@ -1,6 +1,6 @@
 ## About Me
 
-Hi! 👋 I'm Brodie Moy, a **Computer Science student** at **UMass Amherst** (B.S. May 2028, GPA 4.00) focused on **software engineering** and **full-stack development**, especially **frontend**. I enjoy building products end to end: designing user-facing interfaces, integrating APIs, debugging production issues, validating data flows, and shipping reliable features.
+Hi! 👋 I'm Brodie Moy, a Computer Science student at UMass Amherst (B.S. May 2028, GPA 4.00) focused on software engineering and full-stack development, especially frontend. I enjoy building end to end: designing user-facing interfaces, debugging production issues, and shipping reliable features.
 
 ---
 
