@@ -14,7 +14,7 @@ Hi! 👋 I'm Brodie Moy, a **Computer Science student** at **UMass Amherst** (B.
 
 ## Featured Projects
 
-### Plan-it
+### Plan-it: Prerequisite-Aware Course Planner (Hack(H)er413 2026)
 - **Tech:** Next.js 15, React 19, TypeScript, Tailwind CSS, Auth.js / NextAuth, JWT, Google OAuth, Vercel  
 - **What I built:** A prerequisite-aware course planner with validation logic, a searchable course library, scoped localStorage workspaces, and authenticated sharing.  
 - **Engineering focus:** frontend architecture, state management, authentication, persistence, full-stack debugging, deployment.
@@ -22,7 +22,7 @@ Hi! 👋 I'm Brodie Moy, a **Computer Science student** at **UMass Amherst** (B.
 🚀 Try it out: https://plan-it-planner.vercel.app  
 🔗 Repo: https://github.com/Yack-H-er413/Plan-it
 
-### Food4U
+### Food4U: Chat-Style AI Meal Recommendations (HackUMass XIII)
 - **Tech:** React, Vite, Node.js, Express.js, PostgreSQL, Supabase, OpenAI API  
 - **What I built:** A chat-style AI meal recommendation app for UMass dining with async REST API integration, filtering, validation, logging, and user-facing error handling.  
 - **Engineering focus:** full-stack development, API integration, backend communication, structured data, reliability, debugging.
