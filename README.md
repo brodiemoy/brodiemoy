@@ -39,9 +39,10 @@ Hi! 👋 I'm Brodie Moy, a Computer Science student at UMass Amherst (B.S. May 2
 
 ## Technical Skills
 
-- **Languages**: Java, Python, TypeScript, JavaScript, SQL, C, HTML/CSS, Lua/Luau, Google Apps Script  
-- **Frameworks/Libraries**: React, Next.js, Node.js, Express.js, Tailwind CSS, Auth.js/NextAuth, Google OAuth, Bootstrap  
-- **Developer Tools**: Git/GitHub/GitHub Actions, PostgreSQL, Docker, REST APIs, JUnit, Playwright, Vite, npm, Supabase, Vercel, GCC, Make, OpenAI API, VS Code
+- **Languages**: Java, Python, TypeScript, JavaScript, SQL, C, Lua/Luau, HTML/CSS, Google Apps Script
+- **Frameworks/Technologies**: React, Next.js, Node.js, Express.js, Tailwind CSS, PostgreSQL, Supabase, REST APIs,
+Auth.js/NextAuth, Docker
+- **Developer Tools**: Git, GitHub, GitHub Actions, Playwright, JUnit, Vite, Vercel, npm, VS Code, GCC, Make, OpenAI API
 
 ---
 
