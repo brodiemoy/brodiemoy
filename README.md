@@ -2,6 +2,8 @@
 
 Hi! 👋 I'm Brodie Moy, a **Computer Science student** at **UMass Amherst** (B.S. May 2028, GPA 4.00) focused on **software engineering** and **full-stack development**, especially **frontend**. I enjoy building products end to end: designing user-facing interfaces, integrating APIs, debugging production issues, validating data flows, and shipping reliable features.
 
+---
+
 ## Technical Skills
 
 - **Languages**: Java, Python, TypeScript, JavaScript, SQL, C, HTML/CSS, Lua/Luau, Google Apps Script  
