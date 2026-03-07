@@ -19,7 +19,7 @@ Hi! 👋 I'm Brodie Moy, a **Computer Science student** at **UMass Amherst** (B.
 - **What I built:** A prerequisite-aware course planner with validation logic, a searchable course library, scoped localStorage workspaces, and authenticated sharing.  
 - **Engineering focus:** frontend architecture, state management, authentication, persistence, full-stack debugging, deployment.
 
-🚀 Try it out: https://plan-it-planner.vercel.app/
+🚀 Try it out: https://plan-it-planner.vercel.app/  
 🔗 Repo: https://github.com/Yack-H-er413/Plan-it
 
 ### Food4U
