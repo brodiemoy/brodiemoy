@@ -23,7 +23,7 @@ Hi! 👋 I'm Brodie Moy, a Computer Science student at UMass Amherst (B.S. May 2
 
 ### Roblox Game Development
 - **Tech:** Luau, Roblox Studio, OOP, UI/UX, data persistence APIs  
-- Built and shipped Roblox experiences with modular scripting, production debugging, gameplay systems, and reusable components. I also supported live experiences used by **8.3M+ players**, ran campaign work that generated **182K+ impressions**, and improved maintainability by refactoring and extending existing systems.
+- Built and shipped Roblox experiences with modular scripting, production debugging, gameplay systems, and reusable components. I also supported live experiences used by **10M+ players**, ran campaign work that generated **182K+ impressions**, and improved maintainability by refactoring and extending existing systems.
 
 ---
 
