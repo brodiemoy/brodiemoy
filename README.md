@@ -1,53 +1,100 @@
 ## About Me
 
-Hi! 👋 I'm Brodie Moy, a Computer Science student at UMass Amherst (B.S. May 2028) focused on software engineering and full-stack development. I enjoy building end to end: designing user-facing interfaces, debugging production issues, and shipping reliable features.
+I am a software engineer and Computer Science Honors student at the **University of Massachusetts Amherst**, graduating in **May 2028** with a **3.86 GPA**.
 
----
+I currently build full-stack observability software for financial data pipelines processing **millions of transactions daily**. I have also developed and shipped Roblox experiences reaching **10M+ cumulative players**, giving me experience across enterprise systems, consumer products, production debugging, and live-service development.
+
+## Impact at a Glance
+
+* **10M+ players** reached across three shipped Roblox experiences
+* **Millions of daily transactions** supported by the financial data pipelines I help monitor
+* Production experience with **full-stack development, APIs, SQL, CI/CD, testing, and observability**
+* End-to-end project delivery using **C#, Java, Python, TypeScript, React, Next.js, PostgreSQL, and Azure**
+
+## Experience
+
+### Software Engineering Co-op — Factory Mutual Insurance Company
+
+**July 2026 – Present · Remote**
+
+`C#` `.NET` `REST APIs` `SQL` `PostgreSQL` `Azure DevOps` `SonarQube`
+
+* Building a full-stack observability dashboard for downstream financial data pipelines processing millions of transactions each day.
+* Surfacing real-time and historical throughput, batch progress, checksum mismatches, errors, service health, timestamps, and audit state.
+* Enabling product owners and business analysts to evaluate pipeline status without relying on manual developer investigation.
+* Integrating releases into Azure DevOps CI/CD with automated tests and SonarQube quality gates to prevent regressions.
+
+### Game Developer — Independent Roblox Game Studio
+
+**April 2023 – Present · Remote**
+
+`Luau` `Object-Oriented Design` `Client/Server Architecture` `Persistent Data` `Live Services`
+
+* Developed and shipped **three Roblox experiences reaching more than 10 million cumulative players**.
+* Built gameplay systems, user-interface flows, and persistent-data functionality using modular, object-oriented architecture.
+* Refactored gameplay scripts and adapted open-source modules into reusable client/server components.
+* Investigated production issues, triaged bugs, validated fixes, and converted QA results and player feedback into prioritized engineering updates.
+* Improved performance, maintainability, reliability, and user retention through continuous live-service development.
 
 ## Featured Projects
 
-### Plan-it: Prerequisite-Aware Course Planner (Hack(H)er413 2026)
-- **Tech:** Next.js 15, React 19, TypeScript, Tailwind CSS, Auth.js / NextAuth, JWT, Google OAuth, Vercel  
-- **What I built:** A prerequisite-aware course planner with validation logic, a searchable course library, scoped localStorage workspaces, and authenticated sharing.  
-- **Engineering focus:** frontend architecture, state management, authentication, persistence, full-stack debugging, deployment.
+### [Plan-it](https://github.com/Yack-H-er413/Plan-it)
 
-🚀 Try it out: https://plan-it-planner.vercel.app  
-🔗 Repo: https://github.com/Yack-H-er413/Plan-it
+**Prerequisite-aware academic planning application · Hack(H)er413 2026**
 
-### Food4U: Chat-Style AI Meal Recommendations (HackUMass XIII)
-- **Tech:** React, Vite, Node.js, Express.js, PostgreSQL, Supabase, OpenAI API  
-- **What I built:** A chat-style AI meal recommendation app for UMass dining with async REST API integration, filtering, validation, logging, and user-facing error handling.  
-- **Engineering focus:** full-stack development, API integration, backend communication, structured data, reliability, debugging.
+`Next.js` `React` `TypeScript` `Auth.js` `Google OAuth` `Vercel`
 
-🔗 Repo: https://github.com/Team-Food4U/Food4U
+* Built a course planner that prevents invalid schedules by enforcing prerequisite ordering, rejecting same-term prerequisites, and detecting duplicate courses.
+* Created shareable planner workspaces by compressing application data into URL-safe state, avoiding heavyweight backend persistence.
+* Added persistent local workspaces, Google authentication through Auth.js, and production deployment on Vercel.
 
-### Roblox Game Development
-- **Tech:** Luau, Roblox Studio, OOP, UI/UX, data persistence APIs  
-- Built and shipped Roblox experiences with modular scripting, production debugging, gameplay systems, and reusable components. I also supported live experiences used by **10M+ players**, ran campaign work that generated **182K+ impressions**, and improved maintainability by refactoring and extending existing systems.
+### [Food4U](https://github.com/Team-Food4U/Food4U)
 
----
+**AI-assisted campus dining recommendation application · HackUMass XIII**
 
-## Experience Highlights
+`React` `Express` `PostgreSQL` `Supabase` `OpenAI API`
 
-- Built software and shipped updates for live products with real users
-- Worked across frontend, backend, authentication, storage, and deployment
-- Debugged cross-stack issues spanning UI, APIs, databases, and third-party services
-- Automated data analysis workflows and reduced manual error in statistical processing
-- Applied software engineering principles in class, hackathons, and independent development
+* Built a conversational dining application that generates filterable meal recommendations from UMass dining data.
+* Connected stateful React interfaces and date, time, and location filters to REST API endpoints.
+* Implemented loading, empty, and error states for asynchronous frontend-backend workflows.
+* Improved full-stack reliability through HTTP and JSON validation, API debugging, and structured error handling.
 
----
+## Technical Toolkit
 
-## Technical Skills
+**Languages**
 
-- **Languages**: Java, Python, TypeScript, JavaScript, SQL, C, Lua/Luau, HTML/CSS, Google Apps Script
-- **Frameworks/Technologies**: React, Next.js, Node.js, Express.js, Tailwind CSS, PostgreSQL, Supabase, REST APIs,
-Auth.js/NextAuth, Docker
-- **Developer Tools**: Git, GitHub, GitHub Actions, Playwright, JUnit, Vite, Vercel, npm, VS Code, GCC, Make, OpenAI API
+`Java` · `Python` · `C#` · `C` · `TypeScript` · `JavaScript` · `SQL` · `Lua/Luau` · `HTML/CSS`
 
----
+**Frameworks and Runtime Platforms**
 
-## Let's Connect!
+`.NET` · `React` · `Next.js` · `Node.js` · `Express` · `Auth.js/NextAuth`
 
-- **Email:** brodiemoy@outlook.com
-- **LinkedIn:** https://linkedin.com/in/brodiemoy
-- **GitHub:** https://github.com/brodiemoy
+**Data and Cloud**
+
+`PostgreSQL` · `Microsoft Azure` · `Supabase` · `Docker`
+
+**Engineering Infrastructure**
+
+`Git` · `GitHub Actions` · `Azure DevOps` · `SonarQube` · `Playwright` · `JUnit` · `REST APIs` · `CI/CD`
+
+## Education
+
+### University of Massachusetts Amherst
+
+**B.S. in Computer Science, Honors · Expected May 2028 · GPA: 3.86**
+
+Relevant coursework:
+
+* Data Structures
+* Object-Oriented Programming
+* Database Systems
+* Programming Methodology
+* Programming in C
+* Probability and Statistical Reasoning
+* Human-Centered Design and UX Design
+
+## Contact
+
+* **Email:** [brodiemoy@outlook.com](mailto:brodiemoy@outlook.com)
+* **LinkedIn:** [linkedin.com/in/brodiemoy](https://www.linkedin.com/in/brodiemoy)
+* **GitHub:** [github.com/brodiemoy](https://github.com/brodiemoy)
