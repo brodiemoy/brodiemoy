@@ -2,11 +2,11 @@
 
 I am a software engineer and Computer Science Honors student at the **University of Massachusetts Amherst**, graduating in **May 2028** with a **3.86 GPA**.
 
-I currently build full-stack observability software for financial data pipelines processing **millions of transactions daily**. I have also developed and shipped Roblox experiences reaching **10M+ cumulative players**, giving me experience across enterprise systems, consumer products, production debugging, and live-service development.
+I currently build full-stack observability software for financial data pipelines processing **millions of transactions daily**. I have also developed and shipped Roblox experiences reaching **20M+ cumulative players**, giving me experience across enterprise systems, consumer products, production debugging, and live-service development.
 
 ## Impact at a Glance
 
-* **10M+ players** reached across three shipped Roblox experiences
+* **20M+ players** reached across three shipped Roblox experiences
 * **Millions of daily transactions** supported by the financial data pipelines I help monitor
 * Production experience with **full-stack development, APIs, SQL, CI/CD, testing, and observability**
 * End-to-end project delivery using **C#, Java, Python, TypeScript, React, Next.js, PostgreSQL, and Azure**
@@ -30,7 +30,7 @@ I currently build full-stack observability software for financial data pipelines
 
 `Luau` `Object-Oriented Design` `Client/Server Architecture` `Persistent Data` `Live Services`
 
-* Developed and shipped **three Roblox experiences reaching more than 15 million cumulative players**.
+* Developed and shipped **three Roblox experiences reaching more than 20 million cumulative players**.
 * Built gameplay systems, user-interface flows, and persistent-data functionality using modular, object-oriented architecture.
 * Refactored gameplay scripts and adapted open-source modules into reusable client/server components.
 * Investigated production issues, triaged bugs, validated fixes, and converted QA results and player feedback into prioritized engineering updates.
