@@ -30,7 +30,7 @@ I currently build full-stack observability software for financial data pipelines
 
 `Luau` `Object-Oriented Design` `Client/Server Architecture` `Persistent Data` `Live Services`
 
-* Developed and shipped **three Roblox experiences reaching more than 20 million cumulative players**.
+* Developed and shipped **three Roblox experiences reaching more than 25 million cumulative players**.
 * Built gameplay systems, user-interface flows, and persistent-data functionality using modular, object-oriented architecture.
 * Refactored gameplay scripts and adapted open-source modules into reusable client/server components.
 * Investigated production issues, triaged bugs, validated fixes, and converted QA results and player feedback into prioritized engineering updates.
