@@ -2,11 +2,11 @@
 
 I am a software engineer and Computer Science Honors student at the **University of Massachusetts Amherst**, graduating in **May 2028** with a **3.86 GPA**.
 
-I currently build full-stack observability software for financial data pipelines processing **millions of transactions daily**. I have also developed and shipped Roblox experiences reaching **20M+ cumulative players**, giving me experience across enterprise systems, consumer products, production debugging, and live-service development.
+I currently build full-stack observability software for financial data pipelines processing **millions of transactions daily**. I have also developed and shipped Roblox experiences reaching **25M+ cumulative players**, giving me experience across enterprise systems, consumer products, production debugging, and live-service development.
 
 ## Impact at a Glance
 
-* **20M+ players** reached across three shipped Roblox experiences
+* **25M+ players** reached across three shipped Roblox experiences
 * **Millions of daily transactions** supported by the financial data pipelines I help monitor
 * Production experience with **full-stack development, APIs, SQL, CI/CD, testing, and observability**
 * End-to-end project delivery using **C#, Java, Python, TypeScript, React, Next.js, PostgreSQL, and Azure**
