@@ -4,7 +4,9 @@ I'm a **Computer Science student at UMass Amherst (B.S. May 2028)** focused on *
 
 ## 🚀 Featured Projects
 
-### 🧠 Mentaur
+### 🧠 Mentaur (Hack-Nation 7 MIT Hub)
+*🏆 Go Viral Award (Global)*
+
 **Screen-aware AI apprenticeship platform that captures expert knowledge while people work and turns it into reusable training.**
 
 Mentaur observes meaningful changes on a shared screen, asks context-aware questions about decisions and edge cases, and converts the session into a structured **Work Map** that learners can study, practice, and query later.
@@ -29,8 +31,9 @@ Mentaur observes meaningful changes on a shared screen, asks context-aware quest
 
 ---
 
-### 🎓 Plan-it
-**Prerequisite-aware degree planner for building and sharing multi-semester academic plans.**
+### 🎓 Plan-it (Hack(H)er413 2026)
+
+**Prerequisite-aware course planner for building and sharing multi-semester academic plans.**
 
 Plan-it lets students define their own courses, prerequisites, terms, and graduation targets while automatically preventing invalid course placements.
 
@@ -54,7 +57,8 @@ Plan-it lets students define their own courses, prerequisites, terms, and gradua
 
 ---
 
-### 🍽️ Food4U
+### 🍽️ Food4U (HackUMass XIII)
+
 **AI-powered natural-language meal discovery for UMass dining.**
 
 Instead of searching through static dining menus, Food4U lets students describe what they want — such as *“high protein but not too heavy”* — and returns ranked menu recommendations.
@@ -79,6 +83,11 @@ Instead of searching through static dining menus, Food4U lets students describe 
 
 **[Source Code](https://github.com/brodiemoy/Food4U)**
 
+---
+
+### 💡 What I like building
+
+I’m especially interested in projects that combine **full-stack engineering, AI systems, data pipelines, and thoughtful product design** — particularly where the technical architecture directly improves the user experience.
 
 ## Contact
 
