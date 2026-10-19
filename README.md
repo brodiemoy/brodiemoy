@@ -85,10 +85,6 @@ Instead of searching through static dining menus, Food4U lets students describe 
 
 ---
 
-### 💡 What I like building
-
-I’m especially interested in projects that combine **full-stack engineering, AI systems, data pipelines, and thoughtful product design** — particularly where the technical architecture directly improves the user experience.
-
 ## Contact
 
 - **Email:** [brodiemoy@outlook.com](mailto:brodiemoy@outlook.com)
