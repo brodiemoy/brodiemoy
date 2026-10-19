@@ -1,100 +1,87 @@
-## About Me
+# Hi! 👋 I'm Brodie Moy
 
-I am a software engineer and Computer Science Honors student at the **University of Massachusetts Amherst**, graduating in **May 2028** with a **3.86 GPA**.
+I'm a **Computer Science student at UMass Amherst (B.S. May 2028)** focused on **software engineering**.
 
-I currently build full-stack observability software for financial data pipelines processing **millions of transactions daily**. I have also developed and shipped Roblox experiences reaching **40M+ cumulative players**, giving me experience across enterprise systems, consumer products, production debugging, and live-service development.
+## 🚀 Featured Projects
 
-## Impact at a Glance
+### 🧠 Mentaur
+**Screen-aware AI apprenticeship platform that captures expert knowledge while people work and turns it into reusable training.**
 
-* **40M+ players** reached across three shipped Roblox experiences
-* **Millions of daily transactions** supported by the financial data pipelines I help monitor
-* Production experience with **full-stack development, APIs, SQL, CI/CD, testing, and observability**
-* End-to-end project delivery using **C#, Java, Python, TypeScript, React, Next.js, PostgreSQL, and Azure**
+Mentaur observes meaningful changes on a shared screen, asks context-aware questions about decisions and edge cases, and converts the session into a structured **Work Map** that learners can study, practice, and query later.
 
-## Experience
+<p>
+  <img src="https://img.shields.io/badge/Node.js-22-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude-AI-D97757?style=flat-square" />
+  <img src="https://img.shields.io/badge/Supabase-Postgres-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/ElevenLabs-Voice-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/SSE-Realtime-444444?style=flat-square" />
+</p>
 
-### Software Engineering Co-op — Factory Mutual Insurance Company
+**Key engineering highlights**
+- Built a **Capture → Map → Teach** workflow for turning tacit expert knowledge into structured training.
+- Uses **Claude Vision** to understand arbitrary shared screens while local visual-change detection avoids redundant model calls.
+- Separates AI **question generation from question timing** so prompts appear naturally when the teacher pauses.
+- Implements authenticated Teacher/Learner rooms with **Supabase Auth, server-side authorization, and Server-Sent Events**.
+- Built a learner-scoped **RAG system using PostgreSQL full-text search + GIN indexing** without requiring a paid embeddings provider.
+- Added OCR-based privacy controls, off-the-record responses, multilingual translation, and ElevenLabs voice output.
 
-**July 2026 – Present · Remote**
+**[Live Demo](https://hacknation-30mb.onrender.com/) · [Source Code](https://github.com/Farmer-Nation/Mentaur)**
 
-`C#` `.NET` `REST APIs` `SQL` `PostgreSQL` `Azure DevOps` `SonarQube`
+---
 
-* Building a full-stack observability dashboard for downstream financial data pipelines processing millions of transactions each day.
-* Surfacing real-time and historical throughput, batch progress, checksum mismatches, errors, service health, timestamps, and audit state.
-* Enabling product owners and business analysts to evaluate pipeline status without relying on manual developer investigation.
-* Integrating releases into Azure DevOps CI/CD with automated tests and SonarQube quality gates to prevent regressions.
+### 🎓 Plan-it
+**Prerequisite-aware degree planner for building and sharing multi-semester academic plans.**
 
-### Game Developer — Independent Roblox Game Studio
+Plan-it lets students define their own courses, prerequisites, terms, and graduation targets while automatically preventing invalid course placements.
 
-**April 2023 – Present · Remote**
+<p>
+  <img src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Auth.js-Google_OAuth-444444?style=flat-square" />
+</p>
 
-`Luau` `Object-Oriented Design` `Client/Server Architecture` `Persistent Data` `Live Services`
+**Key engineering highlights**
+- Built a **rule-driven scheduling engine** that validates prerequisites and rejects invalid same-term or out-of-order placements.
+- Supports multiple independent degree-planning workspaces with course, term, credit, and completion tracking.
+- Designed **shareable planner state without a backend database** by compressing complete plans into URL-safe payloads.
+- Implemented guest and Google-authenticated persistence with account-scoped `localStorage` namespaces.
+- Added migration logic for moving legacy and guest data safely into authenticated workspaces.
+- Built with reusable UI primitives, Motion animations, responsive layouts, and dark/light themes.
 
-* Developed and shipped **three Roblox experiences reaching more than 40 million cumulative players**.
-* Built gameplay systems, user-interface flows, and persistent-data functionality using modular, object-oriented architecture.
-* Refactored gameplay scripts and adapted open-source modules into reusable client/server components.
-* Investigated production issues, triaged bugs, validated fixes, and converted QA results and player feedback into prioritized engineering updates.
-* Improved performance, maintainability, reliability, and user retention through continuous live-service development.
+**[Live Demo](https://plan-it-planner.vercel.app) · [Source Code](https://github.com/brodiemoy/Plan-it)**
 
-## Featured Projects
+---
 
-### [Plan-it](https://github.com/Yack-H-er413/Plan-it)
+### 🍽️ Food4U
+**AI-powered natural-language meal discovery for UMass dining.**
 
-**Prerequisite-aware academic planning application · Hack(H)er413 2026**
+Instead of searching through static dining menus, Food4U lets students describe what they want — such as *“high protein but not too heavy”* — and returns ranked menu recommendations.
 
-`Next.js` `React` `TypeScript` `Auth.js` `Google OAuth` `Vercel`
+<p>
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-Node.js-339933?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-AI-412991?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-Database-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-Scraping-3776AB?style=flat-square&logo=python&logoColor=white" />
+</p>
 
-* Built a course planner that prevents invalid schedules by enforcing prerequisite ordering, rejecting same-term prerequisites, and detecting duplicate courses.
-* Created shareable planner workspaces by compressing application data into URL-safe state, avoiding heavyweight backend persistence.
-* Added persistent local workspaces, Google authentication through Auth.js, and production deployment on Vercel.
+**Key engineering highlights**
+- Created a conversational **natural-language recommendation pipeline** over structured dining data.
+- Uses OpenAI for semantic ranking while keeping storage, normalization, and ranking concerns separated.
+- Built Python ingestion pipelines using **Playwright, BeautifulSoup, and Requests** to collect dining data.
+- Normalizes inconsistent menu metadata and enriches missing calorie information with fallback heuristics.
+- Uses natural-key de-duplication and bulk **Supabase upserts** to handle noisy scraped data.
+- Designed graceful fallback behavior so recommendations still work when the AI ranking service is unavailable.
+- Prototyped an embeddings-based retrieval path for future hybrid search and reranking.
 
-### [Food4U](https://github.com/Team-Food4U/Food4U)
+**[Source Code](https://github.com/brodiemoy/Food4U)**
 
-**AI-assisted campus dining recommendation application · HackUMass XIII**
-
-`React` `Express` `PostgreSQL` `Supabase` `OpenAI API`
-
-* Built a conversational dining application that generates filterable meal recommendations from UMass dining data.
-* Connected stateful React interfaces and date, time, and location filters to REST API endpoints.
-* Implemented loading, empty, and error states for asynchronous frontend-backend workflows.
-* Improved full-stack reliability through HTTP and JSON validation, API debugging, and structured error handling.
-
-## Technical Toolkit
-
-**Languages**
-
-`Java` · `Python` · `C#` · `C` · `TypeScript` · `JavaScript` · `SQL` · `Lua/Luau` · `HTML/CSS`
-
-**Frameworks and Runtime Platforms**
-
-`.NET` · `React` · `Next.js` · `Node.js` · `Express` · `Auth.js/NextAuth`
-
-**Data and Cloud**
-
-`PostgreSQL` · `Microsoft Azure` · `Supabase` · `Docker`
-
-**Engineering Infrastructure**
-
-`Git` · `GitHub Actions` · `Azure DevOps` · `SonarQube` · `Playwright` · `JUnit` · `REST APIs` · `CI/CD`
-
-## Education
-
-### University of Massachusetts Amherst
-
-**B.S. in Computer Science, Honors · Expected May 2028 · GPA: 3.86**
-
-Relevant coursework:
-
-* Data Structures
-* Object-Oriented Programming
-* Database Systems
-* Programming Methodology
-* Programming in C
-* Probability and Statistical Reasoning
-* Human-Centered Design and UX Design
 
 ## Contact
 
-* **Email:** [brodiemoy@outlook.com](mailto:brodiemoy@outlook.com)
-* **LinkedIn:** [linkedin.com/in/brodiemoy](https://www.linkedin.com/in/brodiemoy)
-* **GitHub:** [github.com/brodiemoy](https://github.com/brodiemoy)
+- **Email:** [brodiemoy@outlook.com](mailto:brodiemoy@outlook.com)
+- **LinkedIn:** [linkedin.com/in/brodiemoy](https://www.linkedin.com/in/brodiemoy)
+- **GitHub:** [github.com/brodiemoy](https://github.com/brodiemoy)
