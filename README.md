@@ -6,9 +6,9 @@ I'm a **Computer Science student at UMass Amherst (B.S. May 2028)** focused on *
 
 ### 🌱 Sprout (Hackachusetts @ MIT + The Engine)
 
-**Verified climate-action rewards platform that turns sponsor funding into provable, AI-verified real-world cleanups.**
+**AI-verified climate-action platform that turns real-world cleanups into sponsor-funded rewards.**
 
-Sprout connects sponsors and participants through a **mission → proof → verification → reward** workflow. Participants submit before-and-after cleanup photos, Sprout verifies the evidence, and each accepted action advances a sponsor-funded campaign while earning the participant points and rewards.
+Sprout lets participants submit cleanup evidence, verifies the action with AI and metadata checks, and converts approved impact into campaign progress, points, and rewards.
 
 <p>
   <img src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
@@ -16,17 +16,15 @@ Sprout connects sponsors and participants through a **mission → proof → veri
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Claude-Vision-D97757?style=flat-square" />
   <img src="https://img.shields.io/badge/Supabase-Postgres-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Sharp-Image_Processing-444444?style=flat-square" />
 </p>
 
 **Key engineering highlights**
-- Built a **server-authoritative verification pipeline** combining Claude Vision with geographic, timestamp, and duplicate-image integrity signals before awarding campaign credit.
-- Implemented **perceptual hashing with Sharp + Hamming distance** to detect reused or recompressed evidence that ordinary file hashes can miss.
-- Designed **atomic, idempotent sponsor accounting** in PostgreSQL so a verified cleanup can advance campaign progress and award points exactly once.
-- Uses **EXIF GPS and capture-time analysis** as additional anti-fraud signals while gracefully handling photos with missing metadata.
-- Secured cleanup evidence with **Supabase Auth, private Storage, server-side identity checks, and scoped data access**.
-- Built an impact ledger connecting individual verified actions to sponsor-funded campaign progress and participant rewards.
-- Added automatic **live/demo runtime fallback**, allowing the full workflow to remain demonstrable without Supabase or Claude credentials.
+- Built an **AI verification pipeline** using Claude Vision, GPS, timestamps, and duplicate-image checks to validate cleanup submissions.
+- Implemented **perceptual hashing with Sharp + Hamming distance** to detect reused or recompressed evidence.
+- Designed **atomic, idempotent PostgreSQL updates** so verified actions award campaign credit and points exactly once.
+- Secured user submissions with **Supabase Auth, private Storage, and server-side authorization**.
+- Connected verified cleanups to sponsor-funded campaign progress through an impact and rewards system.
+- Added a demo fallback so the workflow remains usable without external API credentials.
 
 **[Live Demo](https://hackachusetts-build.vercel.app/) · [Source Code](https://github.com/suri-ng/hackachusetts-build)**
 
