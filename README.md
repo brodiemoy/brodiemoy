@@ -6,7 +6,7 @@ I'm a **Computer Science student at UMass Amherst (B.S. May 2028)** focused on *
 
 ### 🌱 Sprout (Hackachusetts @ MIT + The Engine)
 
-**AI-verified climate-action platform that turns real-world cleanups into sponsor-funded rewards.**
+**AI-verified climate-action rewards platform that turns real-world cleanups into sponsor-funded rewards.**
 
 Sprout lets participants submit cleanup evidence, verifies the action with AI and metadata checks, and converts approved impact into campaign progress, points, and rewards.
 
@@ -85,7 +85,7 @@ Plan-it lets students define their own courses, prerequisites, terms, and gradua
 
 ### 🍽️ Food4U (HackUMass XIII)
 
-**AI-powered natural-language meal discovery for UMass dining.**
+**Chat-style AI meal recommendations for UMass dining.**
 
 Instead of searching through static dining menus, Food4U lets students describe what they want — such as *“high protein but not too heavy”* — and returns ranked menu recommendations.
 
