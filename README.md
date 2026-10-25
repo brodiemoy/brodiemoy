@@ -19,7 +19,7 @@ Sprout lets participants submit cleanup evidence, verifies the action with AI an
 </p>
 
 **Key engineering highlights**
-- Built an **AI verification pipeline** using Claude Vision, GPS, timestamps, and duplicate-image checks to validate cleanup submissions.
+- Built an **AI verification pipeline** using Claude Vision, GPS, timestamps, and duplicate-image checks to validate submissions.
 - Implemented **perceptual hashing with Sharp + Hamming distance** to detect reused or recompressed evidence.
 - Designed **atomic, idempotent PostgreSQL updates** so verified actions award campaign credit and points exactly once.
 - Secured user submissions with **Supabase Auth, private Storage, and server-side authorization**.
@@ -50,7 +50,7 @@ Mentaur observes meaningful changes on a shared screen, asks context-aware quest
 - Uses **Claude Vision** to understand arbitrary shared screens while local visual-change detection avoids redundant model calls.
 - Separates AI **question generation from question timing** so prompts appear naturally when the teacher pauses.
 - Implements authenticated Teacher/Learner rooms with **Supabase Auth, server-side authorization, and Server-Sent Events**.
-- Built a learner-scoped **RAG system using PostgreSQL full-text search + GIN indexing** without requiring a paid embeddings provider.
+- Built a learner-scoped **RAG system using PostgreSQL full-text search + GIN indexing** without requiring a paid provider.
 - Added OCR-based privacy controls, off-the-record responses, multilingual translation, and ElevenLabs voice output.
 
 **[Live Demo](https://hacknation-30mb.onrender.com/) · [Source Code](https://github.com/Farmer-Nation/Mentaur)**
