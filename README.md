@@ -105,7 +105,6 @@ Instead of searching through static dining menus, Food4U lets students describe 
 - Normalizes inconsistent menu metadata and enriches missing calorie information with fallback heuristics.
 - Uses natural-key de-duplication and bulk **Supabase upserts** to handle noisy scraped data.
 - Designed graceful fallback behavior so recommendations still work when the AI ranking service is unavailable.
-- Prototyped an embeddings-based retrieval path for future hybrid search and reranking.
 
 **[Source Code](https://github.com/brodiemoy/Food4U)**
 
