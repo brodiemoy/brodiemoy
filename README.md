@@ -21,12 +21,9 @@ WhatColorAreHue? turns a phone camera or webcam into a **See → Find → Do →
 </p>
 
 **Key engineering highlights**
-- Built **HueSee** for real-time color identification with shade naming, perceptual matching, stabilized readings, and spoken feedback.
-- Implemented **HueFind** to locate target colors in live camera frames and highlight matching regions with high-contrast outlines.
-- Integrated **Gemini-powered HueDo** to turn natural-language goals and image context into guided steps with completion checks.
-- Added **local object tracking** between AI requests for responsive visual guidance without processing every frame through the model.
-- Developed **HueMemory with MongoDB** to store account-scoped colors and reusable task guides.
-- Secured user data with **authenticated sessions, protected API routes, and same-origin checks**.
+- Built **HueSee and HueFind** for real-time color identification, perceptual shade matching, stabilized readings, and high-contrast detection of matching regions.
+- Integrated **Gemini-powered HueDo** for image-aware task guidance, using local object tracking to maintain responsive feedback between AI requests.
+- Developed **MongoDB-backed HueMemory** for account-scoped colors and reusable guides, secured with authenticated sessions and protected API routes.
 
 **[Live Demo](https://whatcolorarehue.us/) · [Source Code](https://github.com/Yackers-26/what-color-are-hue)**
 
@@ -47,12 +44,9 @@ Sprout lets participants submit cleanup evidence, verifies the action with AI an
 </p>
 
 **Key engineering highlights**
-- Built an **AI verification pipeline** using Claude Vision, GPS, timestamps, and duplicate-image checks to validate submissions.
-- Implemented **perceptual hashing with Sharp + Hamming distance** to detect reused or recompressed evidence.
-- Designed **atomic, idempotent PostgreSQL updates** so verified actions award campaign credit and points exactly once.
-- Secured user submissions with **Supabase Auth, private Storage, and server-side authorization**.
-- Connected verified cleanups to sponsor-funded campaign progress through an impact and rewards system.
-- Added a demo fallback so the workflow remains usable without external API credentials.
+- Built an **AI verification pipeline** combining Claude Vision, GPS, timestamps, and perceptual hashing with **Sharp + Hamming distance** to validate cleanup evidence and detect duplicates.
+- Designed **atomic, idempotent PostgreSQL updates** to award campaign credit and reward points exactly once per verified action.
+- Secured the submission and sponsor-funded rewards workflow with **Supabase Auth, private Storage, and server-side authorization**.
 
 **[Live Demo](https://hackachusetts-build.vercel.app/) · [Source Code](https://github.com/suri-ng/hackachusetts-build)**
 
@@ -74,12 +68,9 @@ Mentaur observes meaningful changes on a shared screen, asks context-aware quest
 </p>
 
 **Key engineering highlights**
-- Built a **Capture → Map → Teach** workflow for turning tacit expert knowledge into structured training.
-- Uses **Claude Vision** to understand arbitrary shared screens while local visual-change detection avoids redundant model calls.
-- Separates AI **question generation from question timing** so prompts appear naturally when the teacher pauses.
-- Implements authenticated Teacher/Learner rooms with **Supabase Auth, server-side authorization, and Server-Sent Events**.
-- Built a learner-scoped **RAG system using PostgreSQL full-text search + GIN indexing** without requiring a paid provider.
-- Added OCR-based privacy controls, off-the-record responses, multilingual translation, and ElevenLabs voice output.
+- Built a **Capture → Map → Teach pipeline** using Claude Vision and local visual-change detection to transform expert screen activity into structured training while reducing redundant AI calls.
+- Implemented **context-aware question scheduling** and authenticated Teacher/Learner rooms using Supabase Auth, server-side authorization, and **Server-Sent Events**.
+- Developed a **learner-scoped RAG system** using PostgreSQL full-text search and GIN indexing to retrieve knowledge from captured Work Maps.
 
 **[Live Demo](https://hacknation-30mb.onrender.com/) · [Source Code](https://github.com/Farmer-Nation/Mentaur)**
 
@@ -100,12 +91,9 @@ Plan-it lets students define their own courses, prerequisites, terms, and gradua
 </p>
 
 **Key engineering highlights**
-- Built a **rule-driven scheduling engine** that validates prerequisites and rejects invalid same-term or out-of-order placements.
-- Supports multiple independent degree-planning workspaces with course, term, credit, and completion tracking.
-- Designed **shareable planner state without a backend database** by compressing complete plans into URL-safe payloads.
-- Implemented guest and Google-authenticated persistence with account-scoped `localStorage` namespaces.
-- Added migration logic for moving legacy and guest data safely into authenticated workspaces.
-- Built with reusable UI primitives, Motion animations, responsive layouts, and dark/light themes.
+- Built a **rule-driven scheduling engine** that validates course prerequisites and prevents invalid same-term or out-of-order placements.
+- Designed **compressed, URL-safe planner serialization** to share complete multi-semester academic plans without a backend database.
+- Implemented **guest and Google-authenticated persistence** using account-scoped `localStorage` namespaces and migration logic for legacy and guest data.
 
 **[Live Demo](https://plan-it-planner.vercel.app) · [Source Code](https://github.com/Yack-H-er413/Plan-it)**
 
@@ -127,12 +115,9 @@ Instead of searching through static dining menus, Food4U lets students describe 
 </p>
 
 **Key engineering highlights**
-- Created a conversational **natural-language recommendation pipeline** over structured dining data.
-- Uses OpenAI for semantic ranking while keeping storage, normalization, and ranking concerns separated.
-- Built Python ingestion pipelines using **Playwright, BeautifulSoup, and Requests** to collect dining data.
-- Normalizes inconsistent menu metadata and enriches missing calorie information with fallback heuristics.
-- Uses natural-key de-duplication and bulk **Supabase upserts** to handle noisy scraped data.
-- Designed graceful fallback behavior so recommendations still work when the AI ranking service is unavailable.
+- Built a **natural-language recommendation pipeline** using OpenAI to semantically rank structured dining menus against student preferences.
+- Developed **Python data ingestion pipelines** with Playwright, BeautifulSoup, and Requests to scrape menus, normalize inconsistent metadata, and estimate missing calorie information.
+- Implemented **natural-key de-duplication and bulk Supabase upserts** for reliable menu storage, with fallback recommendations when AI ranking is unavailable.
 
 **[Source Code](https://github.com/Team-Food4U/Food4U)**
 
