@@ -5,7 +5,7 @@ I'm a **Computer Science student at UMass Amherst (B.S. May 2028)** focused on *
 
 ## 🚀 Projects
 
-### 🎨 WhatColorAreHue?
+### 🎨 WhatColorAreHue? (HackUMass XIV)
 *🏆 Best Domain Name from GoDaddy Registry*
 
 **AI-powered color accessibility assistant that helps people identify, find, and work with colors using a live camera.**
