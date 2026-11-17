@@ -1,8 +1,36 @@
+
 # Hi! 👋 I'm Brodie Moy
 
 I'm a **Computer Science student at UMass Amherst (B.S. May 2028)** focused on **software engineering**.
 
 ## 🚀 Projects
+
+### 🎨 WhatColorAreHue?
+*🏆 Best Domain Name from GoDaddy Registry*
+
+**AI-powered color accessibility assistant that helps people identify, find, and work with colors using a live camera.**
+
+WhatColorAreHue? turns a phone camera or webcam into a **See → Find → Do → Remember** workflow, helping people with color-vision deficiencies identify shades, locate matching colors, follow guided tasks, and save useful information.
+
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-Express-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini-AI-4285F4?style=flat-square&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebRTC-Camera-444444?style=flat-square" />
+</p>
+
+**Key engineering highlights**
+- Built **HueSee** for real-time color identification with shade naming, perceptual matching, stabilized readings, and spoken feedback.
+- Implemented **HueFind** to locate target colors in live camera frames and highlight matching regions with high-contrast outlines.
+- Integrated **Gemini-powered HueDo** to turn natural-language goals and image context into guided steps with completion checks.
+- Added **local object tracking** between AI requests for responsive visual guidance without processing every frame through the model.
+- Developed **HueMemory with MongoDB** to store account-scoped colors and reusable task guides.
+- Secured user data with **authenticated sessions, protected API routes, and same-origin checks**.
+
+**[Live Demo](https://whatcolorarehue.us/) · [Source Code](https://github.com/Yackers-26/what-color-are-hue)**
+
+---
 
 ### 🌱 Sprout (Hackachusetts @ MIT + The Engine)
 
@@ -79,7 +107,7 @@ Plan-it lets students define their own courses, prerequisites, terms, and gradua
 - Added migration logic for moving legacy and guest data safely into authenticated workspaces.
 - Built with reusable UI primitives, Motion animations, responsive layouts, and dark/light themes.
 
-**[Live Demo](https://plan-it-planner.vercel.app) · [Source Code](https://github.com/brodiemoy/Plan-it)**
+**[Live Demo](https://plan-it-planner.vercel.app) · [Source Code](https://github.com/Yack-H-er413/Plan-it)**
 
 ---
 
@@ -106,7 +134,7 @@ Instead of searching through static dining menus, Food4U lets students describe 
 - Uses natural-key de-duplication and bulk **Supabase upserts** to handle noisy scraped data.
 - Designed graceful fallback behavior so recommendations still work when the AI ranking service is unavailable.
 
-**[Source Code](https://github.com/brodiemoy/Food4U)**
+**[Source Code](https://github.com/Team-Food4U/Food4U)**
 
 ---
 
